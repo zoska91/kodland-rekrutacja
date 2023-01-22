@@ -13,10 +13,10 @@ body {
   --color-base: #000;
   --background-primary-color: rgb(179, 231, 238);
   --background-secondary-color: #ffbf69;
+  --max-width: 1600px;
 }
 
 /* REUSABLE ELEMENT */
-
 h3 {
   font-size: 1.2rem;
   font-weight: bold;
@@ -240,6 +240,9 @@ h3 {
 .menu-opened .bar3 {
   transform: translateY(-6px) rotateZ(45deg);
 }
+
+/* zazwyczaj zaczynam pisać style od mobile, ale z racji,*/
+/* że widok był desktop zrobiłam na odwrót */
 
 /* RWD */
 @media (max-width: 960px) {
